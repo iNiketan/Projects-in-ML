@@ -1,4 +1,3 @@
-# Mini-Projectes-R-Py
-Mini-projectes in data science and others
+# Project in ML
 
-here i'm adding some of biggner level projects that i had done
+here i'm adding some projects that i have done.
