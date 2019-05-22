@@ -82,9 +82,6 @@ X_opt = X[:, [0, 7, 8, 9]]
 regressor_ols = sm.OLS(endog= y1, exog= X_opt).fit()
 regressor_ols.summary()
 
-X_opt_train, X_opt_test, y1_train, y1_test = train_test_split(X, y1, test_size=.2, random_state=0)
-regressor1.fit(X_opt_train, y1_train)
-y_pred12 = regressor1.predict(X_opt_test)
 
 # for y2
 X_opt2 = X[:, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
